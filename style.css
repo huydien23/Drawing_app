@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.tool {
+    background: #d858a3;
+    display: flex;
+    align-items: center;
+}
+
+
+.tool > * {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    margin: 10px;
+    font-size: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.tool > *:hover {
+    background: #b4528b;
+}
+
+#save {
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
